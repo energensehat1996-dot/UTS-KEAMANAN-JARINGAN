@@ -1,0 +1,12 @@
+﻿services:
+  target:
+    image: nginx:alpine
+    sysctls:
+      - net.ipv4.tcp_syncookies=1
+
+  attacker:
+    image: alpine
+    command: sleep infinity
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN

